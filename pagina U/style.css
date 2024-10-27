@@ -185,6 +185,7 @@ body
 .slider-img img
 {
     margin-right: 225px;
+    margin-left: 12px;
     width: 550px;
 }
 .products
@@ -207,6 +208,8 @@ body
     cursor: pointer;
     color: #a7a7a7;
     font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
     transition: background ease 0.2s;
 }
 .tabs .tab
@@ -225,6 +228,10 @@ body
 {
     border-bottom: 2px solid #DB241B;
     color: #ffffff;
+}
+.tabs input[type ="radio"]:checked + label + .tab
+{
+    display: block;
 }
 .product
 {
@@ -295,7 +302,7 @@ body
 .info-img img
 {
     width: 500px;
-    height: 250px;
+    height: 300px;
 }
 .info-txt
 {
@@ -548,3 +555,4 @@ body
         margin: 25px 0px 10px 0px;
     }
 }
+
